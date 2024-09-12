@@ -38,24 +38,24 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: ` Order Products Faster Easier`,
+  title: `Experience Future with Fusion of Indian Culture`,
   subtitle:
-    'Order your favorite foods at any time and we will deliver them right to where you are.',
+    'Sarvajanik College of Engineering and Technology Electronics and Communication Department',
   btnText: 'Get Started',
   image: HeroImage,
 };
 
 export const aboutData = {
   image: AboutImg,
-  title: 'Find Out A Little More About Us',
+  title: 'SYMPOSIUM 2024',
   subtitle:
-    'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
+    'Symposium since its inception in 1999 has always been an epitome of fine technicalities checking smartness without any fees. This tech fest has surpassed 25 golden years of creating an unmatched aura of science and technology. Symposium has helped in uniting, involving, nourishing and fetching out the fresh talent from its core and has helped the young minds to show their skills and abilities in technical and non-technical aspects. It is thus synonymous to a wholesome carnival encompassing the everyday segments of life- work, fun and  passion into a single technological amalgamation.Be it a campaign, focused at promotion of futuristic and eco-friendly technologies or technical innovations aimed at eradicating problems faced by common man. These initiative which helps in addressing social and environmental causes have set this tech-fest apart from any other college festival.',
 };
 
 export const featuresData = {
-  title: 'Some Services We Offer',
+  title: 'EVENTS',
   subtitle:
-    'With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!',
+    'Expand your horizons and embrace new opportunities at Symposium 2024.',
   list: [
     {
       image: Feature1Img,
@@ -93,6 +93,7 @@ export const featuresData = {
       linkText: 'Learn more',
       delay: '1300',
     },
+    
   ],
 };
 
@@ -124,10 +125,11 @@ export const testimonialsData = [
 ];
 
 export const ctaData = {
-  title: 'Contact Us From Here',
-  subtitle: 'Get limited 1 week free try our features!',
-  btnText1: 'Learn more',
-  btnText2: 'Request Demo',
+  title: 'Contact Us ',
+  subtitle1: 'person1: 91826448484',
+  subtitle2: 'person2: 91826448484',
+  email:'xyz@gmail.com',
+  btnText1: 'feedback',
 };
 
 export const footerData = {
@@ -137,7 +139,7 @@ export const footerData = {
   phone: '1-232-7788 (Main)',
   list1: [
     {
-      name: 'Profile',
+      name: 'HOME',
       href: '#',
     },
     {
@@ -192,6 +194,6 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: '© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.',
+  text: '© Symposium, 2024. All rights reserved.',
   icon: <BsChatDotsFill />,
 };

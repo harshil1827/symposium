@@ -7,7 +7,6 @@ import NavMobile from './NavMobile';
 
 // import icons
 import { FaBars } from 'react-icons/fa';
-import { BsArrowRight } from 'react-icons/bs';
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -19,15 +18,15 @@ const Header = () => {
       data-aos-duration='1000'
     >
       <div className='container mx-auto'>
-        <div className='flex items-center justify-between'>
-          <div className='flex items-center gap-x-[120px]'>
+        
+        <div className='flex items-center justify-start'>
+          <div className='flex items-center gap-x-[20px] '>
             {/* logo */}
             <a href='#'>
-              <img src={Logo} alt='' />
+              <img src={Logo} alt='' style={{height:'11vh'}} />
             </a>
-
             {/* nav / initially hidden / show on large screens  */}
-            <div className='hidden lg:flex'>
+            <div className='hidden lg:flex  ' >
               <Nav />
             </div>
           </div>
@@ -41,10 +40,6 @@ const Header = () => {
             <NavMobile />
           </div>
 
-          <button className='btn btn-quaternary flex items-center gap-x-[20px] group'>
-            Request Demo
-            <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition' />
-          </button>
 
           {/* nav trigger btn / only shows on mobile screens */}
           <div

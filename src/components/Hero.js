@@ -4,14 +4,14 @@ import React from 'react';
 import { heroData } from '../data';
 
 // import components
-import Header from './Header';
+
 
 const Hero = () => {
   // destructure hero
-  const { title, subtitle, btnText, image } = heroData;
+  const { title, subtitle,  image } = heroData;
   return (
     <section className='lg:h-[900px] py-12'>
-      <Header />
+      
       <div className='container mx-auto h-full relative'>
         <div className='flex flex-col xl:flex-row items-center h-full md:py-24'>
           {/* text */}
@@ -32,13 +32,6 @@ const Hero = () => {
             >
               {subtitle}
             </p>
-            <button
-              className='btn btn-primary mb-8 xl:mb-0'
-              data-aos='fade-down'
-              data-aos-delay='600'
-            >
-              {btnText}
-            </button>
           </div>
           {/* image */}
           <div

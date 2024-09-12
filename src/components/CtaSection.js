@@ -8,7 +8,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 const CtaSection = () => {
   // destructure cta data
-  const { title, subtitle, btnText1, btnText2 } = ctaData;
+  const { title, subtitle1,subtitle2, btnText1,email } = ctaData;
   return (
     <section className='my-[75px] xl:my-[150px] border-t-2' data-aos='fade-up'>
       <div className='container mx-auto'>
@@ -19,7 +19,13 @@ const CtaSection = () => {
               {title}
             </h2>
             <p className='lead' data-aos='fade-up'>
-              {subtitle}
+              {subtitle1}
+            </p>
+            <p className='lead' data-aos='fade-up'>
+              {subtitle2}
+            </p>
+            <p className='lead' data-aos='fade-up'>
+              {email}
             </p>
           </div>
           {/* buttons */}
@@ -31,14 +37,7 @@ const CtaSection = () => {
             >
               {btnText1}
             </button>
-            <button
-              className='btn btn-quaternary flex items-center gap-x-[20px] group'
-              data-aos='fade-up'
-              data-aos-delay='400'
-            >
-              {btnText2}
-              <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition' />
-            </button>
+            
           </div>
         </div>
       </div>

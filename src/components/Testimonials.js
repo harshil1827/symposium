@@ -14,7 +14,7 @@ const Testimonials = () => {
         >
           <div className='flex flex-col justify-center px-2 xl:px-0 h-[800px]'>
             <h2 className='h2 text-white text-center mb-[80px]'>
-              Testimonials
+              SYMPOSIUM FAMILY
             </h2>
             <TestimonialSlider />
           </div>
