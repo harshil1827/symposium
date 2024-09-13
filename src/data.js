@@ -189,7 +189,7 @@ export const testimonialsData = [
   },
   {
     image: Avatar3Img,
-    name: 'Vebin',
+    name: 'Sayam Jain',
     web: 'vebin.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
@@ -197,7 +197,7 @@ export const testimonialsData = [
   },
   {
     image: Avatar1Img,
-    name: 'Serena',
+    name: 'Harshit Jain',
     web: 'rena.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
@@ -205,7 +205,7 @@ export const testimonialsData = [
   },
   {
     image: Avatar2Img,
-    name: 'Natalia',
+    name: 'Aditya Narayan Jha',
     web: 'nataliya.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
@@ -213,7 +213,7 @@ export const testimonialsData = [
   },
   {
     image: Avatar3Img,
-    name: 'Vebin',
+    name: 'Khushboo Jha',
     web: 'vebin.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
