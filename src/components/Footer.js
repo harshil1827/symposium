@@ -10,14 +10,14 @@ const Footer = () => {
   // destructure footer data
   const { logo, address, email, phone, list1, list2, socialList } = footerData;
   return (
-    <footer data-aos='fade-up'>
+    <footer data-aos='fade-up' style={{marginTop:'5%'}}>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row text-center xl:text-left gap-y-12'>
           {/* info */}
-          <div className='w-[45%] mx-auto flex flex-col items-center xl:items-start'>
+          <div className='w-[45%] mx-auto flex flex-col items-center xl:items-start' style={{width:'60%'}}>
             {/* logo */}
             <a href='#'>
-              <img className='mb-[65px]' src={logo} alt='' />
+              <img className='mb-[10px] mx-[-5px]' src={logo} alt='' />
             </a>
             {/* address */}
             <div className='max-w-[260px] mb-5 text-primary font-bold'>
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
             {/* list 2 */}
             <div>
-              <div className='font-extrabold text-primary mb-8'>Help</div>
+              <div className='font-extrabold text-primary mb-8'></div>
               <ul className='flex flex-col gap-y-4'>
                 {list2.map((item, index) => {
                   return (

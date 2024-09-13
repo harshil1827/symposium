@@ -17,14 +17,14 @@ const Features = () => {
           <h2
             className='h2 mb-6 xl:mb-12'
             data-aos='fade-down'
-            data-aos-delay='100'
+            data-aos-delay='1'
           >
             {title}
           </h2>
           <p
             className='lead max-w-[584px] mx-auto mb-16 xl:mb-24'
             data-aos='fade-down'
-            data-aos-delay='200'
+            data-aos-delay='2'
           >
             {subtitle}
           </p>
@@ -41,7 +41,7 @@ const Features = () => {
                 key={index}
                 className='w-full max-w-[530px] h-[358px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start mx-auto'
                 data-aos='zoom-in'
-                data-aos-offset='100'
+                data-aos-offset='1'
                 data-aos-delay={delay}
               >
                 {/* bg image */}

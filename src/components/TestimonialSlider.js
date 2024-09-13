@@ -18,8 +18,8 @@ const TestimonialSlider = () => {
   return (
     <Swiper
       slidesPerView={'auto'}
-      centeredSlides={true}
-      spaceBetween={20}
+      centeredSlides={false}
+      spaceBetween={0}
       pagination={{
         clickable: true,
       }}
@@ -33,7 +33,7 @@ const TestimonialSlider = () => {
           // slide
           <SwiperSlide
             key={index}
-            className='bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[330px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
+            className='bg-white rounded-[20px] border border-accent xl:max-w-[500px] max-h-[300px] pt-[60px] px-[25px] xl:px-[70px] pb-[50px] flex items-start gap-x-[10px] shadow-xl'
           >
             {/* avatar image */}
             <img src={image} alt='' />

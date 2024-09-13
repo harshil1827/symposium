@@ -17,6 +17,7 @@ import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
+import herologo from '../src/assets/img/hero-img.png'
 
 export const navigationData = [
   {
@@ -46,7 +47,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  image: AboutImg,
+  image: herologo,
   title: 'SYMPOSIUM 2024',
   subtitle:
     'Symposium since its inception in 1999 has always been an epitome of fine technicalities checking smartness without any fees. This tech fest has surpassed 25 golden years of creating an unmatched aura of science and technology. Symposium has helped in uniting, involving, nourishing and fetching out the fresh talent from its core and has helped the young minds to show their skills and abilities in technical and non-technical aspects. It is thus synonymous to a wholesome carnival encompassing the everyday segments of life- work, fun and  passion into a single technological amalgamation.Be it a campaign, focused at promotion of futuristic and eco-friendly technologies or technical innovations aimed at eradicating problems faced by common man. These initiative which helps in addressing social and environmental causes have set this tech-fest apart from any other college festival.',
@@ -87,7 +88,79 @@ export const featuresData = {
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'Product Received',
+      title: 'ASTRAHIRE',
+      description:
+        'In our app you can see the delay time of your order...',
+      linkText: 'Learn more',
+      delay: '1300',
+    },
+    {
+      image: Feature1Img,
+      bgImage: Feature1BgImg,
+      title: 'Payment Done',
+      description:
+        'Pay with a Visa or PayPal card and without much ado',
+      linkText: 'Learn more',
+      delay: '400',
+    },
+    {
+      image: Feature2Img,
+      bgImage: Feature2BgImg,
+      title: 'Find Your Product',
+      description:
+        'We offer sale of products through the Internet..',
+      linkText: 'Learn more',
+      delay: '700',
+    },
+    {
+      image: Feature3Img,
+      bgImage: Feature3BgImg,
+      title: 'Print Out',
+      description:
+        'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
+      linkText: 'Learn more',
+      delay: '1000',
+    },
+    {
+      image: Feature4Img,
+      bgImage: Feature4BgImg,
+      title: 'ASTRAHIRE',
+      description:
+        'In our app you can see the delay time of your order...',
+      linkText: 'Learn more',
+      delay: '1300',
+    },
+    {
+      image: Feature1Img,
+      bgImage: Feature1BgImg,
+      title: 'Payment Done',
+      description:
+        'Pay with a Visa or PayPal card and without much ado',
+      linkText: 'Learn more',
+      delay: '400',
+    },
+    {
+      image: Feature2Img,
+      bgImage: Feature2BgImg,
+      title: 'Find Your Product',
+      description:
+        'We offer sale of products through the Internet..',
+      linkText: 'Learn more',
+      delay: '700',
+    },
+    {
+      image: Feature3Img,
+      bgImage: Feature3BgImg,
+      title: 'Print Out',
+      description:
+        'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
+      linkText: 'Learn more',
+      delay: '1000',
+    },
+    {
+      image: Feature4Img,
+      bgImage: Feature4BgImg,
+      title: 'ASTRAHIRE',
       description:
         'In our app you can see the delay time of your order...',
       linkText: 'Learn more',
@@ -98,6 +171,30 @@ export const featuresData = {
 };
 
 export const testimonialsData = [
+  {
+    image: Avatar1Img,
+    name: 'Prof. Ketki Pathak',
+    web: 'ketki.joshi@scet.ac.in',
+    message:
+      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+    delay: '300',
+  },
+  {
+    image: Avatar2Img,
+    name: 'Prof. Chirag Paunwala',
+    web: 'chirag.paunwala@scet.ac.in',
+    message:
+      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+    delay: '600',
+  },
+  {
+    image: Avatar3Img,
+    name: 'Vebin',
+    web: 'vebin.com',
+    message:
+      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+    delay: '900',
+  },
   {
     image: Avatar1Img,
     name: 'Serena',
@@ -122,6 +219,7 @@ export const testimonialsData = [
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
     delay: '900',
   },
+  
 ];
 
 export const ctaData = {
@@ -133,13 +231,13 @@ export const ctaData = {
 };
 
 export const footerData = {
-  logo: LogoV2,
-  address: 'Product Texas, 234 Bokki Avenue Street BMW 99388',
+  logo: herologo,
+  address: 'Electronics & Communication Sarvajanik College of Engineering and Technology ',
   email: 'info@producttexas.project',
   phone: '1-232-7788 (Main)',
   list1: [
     {
-      name: 'HOME',
+      name: 'Home',
       href: '#',
     },
     {
@@ -150,30 +248,26 @@ export const footerData = {
       name: 'Careers',
       href: '#',
     },
-    {
-      name: 'DW News',
-      href: '#',
-    },
   ],
   list2: [
     {
-      name: 'Support',
+      name: '',
       href: '#',
     },
     {
-      name: 'Sign Up',
+      name: '',
       href: '#',
     },
     {
-      name: 'Guide',
+      name: '',
       href: '#',
     },
     {
-      name: 'Reports',
+      name: '',
       href: '#',
     },
     {
-      name: 'Q & A',
+      name: '',
       href: '#',
     },
   ],
