@@ -18,7 +18,7 @@ const Hero = () => {
           <div className='text-center xl:text-left xl:absolute'>
             {/* title */}
             <h1
-              className='h1 xl:max-w-[700px] mb-6 xl:mb-12'
+              className='h1 xl:max-w-[700px] mb-6 xl:mb-12 glow'
               data-aos='fade-down'
               data-aos-delay='400'
             >

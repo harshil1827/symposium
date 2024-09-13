@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,9 +6,24 @@
 /* In your styles.css or another CSS file */
 .custom-gradient-bg {
   background-color: #0f1252; /* Fallback color */
-  background-image: linear-gradient(225deg, #ECE7DD 0%, #ACB4BD 50%,#ECE7DD 100%);
-  background-repeat: no-repeat;
+  background-image: url('https://img.freepik.com/free-photo/abstract-2d-colorful-wallpaper-with-grainy-gradients_23-2151001609.jpg?t=st=1726251268~exp=1726254868~hmac=b70e934027b3fcada2d5e0cebb8e22a5dfe450f3de7b5c1d63bb5448d672cae3&w=1800');
+  background-size: cover; /* Ensures the image covers the whole container */
+  background-repeat:repeat; /* Prevents image repetition */
+  z-index: -1;
 }
+
+/* GlowingHeader.css */
+.glow {
+  font-size: 3rem; /* Adjust size as needed */
+  color: #fff; /* Text color */
+  text-shadow: 
+    0 0 5px #343447,  /* Red glow */
+    0 0 10px #fdfdfd, 
+    0 0 15px #0b97ba, 
+    0 0 20px #595e74, 
+    0 0 25px #79718b; 
+}
+
 
 @layer base {
   body {

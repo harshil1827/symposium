@@ -60,109 +60,110 @@ export const featuresData = {
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: 'Payment Done',
+      title: 'Hire Ashtra',
       description:
         'Pay with a Visa or PayPal card and without much ado',
-      linkText: 'Learn more',
+      link:'https://forms.gle/BDRXgzwDPM2NkYWU7',
       delay: '100',
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: 'Find Your Product',
+      title: 'Code Alchemy',
       description:
         'We offer sale of products through the Internet..',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/VFv9UtAm378hbU5T6',
       delay: '100',
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: 'Print Out',
+      title: 'Ganit Fusion',
       description:
         'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/5oy4JhANJdg14bmM8',
       delay: '100',
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'ASTRAHIRE',
+      title: 'Bhojan Bytes',
       description:
         'In our app you can see the delay time of your order...',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/pUX8HLcxAq7ucyGq6',
       delay: '100',
     },
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: 'Payment Done',
+      title: 'TechAngle',
       description:
         'Pay with a Visa or PayPal card and without much ado',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/DSmu8eh3KDyS8uXa6',
       delay: '100',
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: 'Find Your Product',
+      title: 'Algo Shastra',
       description:
         'We offer sale of products through the Internet..',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/MkHctXnG1X2fTDAa9',
       delay: '100',
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: 'Print Out',
+      title: 'Techno Sutra',
       description:
         'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/91RgmdDvpGFVEoLu9',
       delay: '100',
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'ASTRAHIRE',
+      title: 'Big Bull',
       description:
         'In our app you can see the delay time of your order...',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/wt6YBgwwCXKiFSX96',
       delay: '100',
     },
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: 'Payment Done',
+      title: 'Lazer Ka chakravyu',
       description:
         'Pay with a Visa or PayPal card and without much ado',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/3RWGKTARQUrnycaa6',
       delay: '100',
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: 'Find Your Product',
+      title: 'Bollywood Bonanza',
       description:
         'We offer sale of products through the Internet..',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/Gqm9egJX5H1ZtSAg9',
       delay: '100',
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: 'Print Out',
+      title: 'Mayavi Vault',
       description:
         'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      linkText: 'Learn more',
+      link: 'https://forms.gle/27JrNUFv3nrXmPh3A',
       delay: '100',
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'ASTRAHIRE',
+      title: 'Game of Fates',
       description:
         'In our app you can see the delay time of your order...',
       linkText: 'Learn more',
+      link:'https://forms.gle/rqodRbvGFkJrBhMV7',
       delay: '100',
     },
     
@@ -189,23 +190,23 @@ export const testimonialsData = [
   {
     image: Avatar3Img,
     name: 'Sayam Jain',
-    web: 'vebin.com',
+    web: 'sayamjain.ec21@scet.ac.in',
     message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      'Financial Co-ordinator',
     delay: '900',
   },
   {
     image: Avatar1Img,
     name: 'Harshit Jain',
-    web: 'rena.com',
+    web: 'harshitjain.ec21@scet.ac.in',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
     delay: '300',
   },
   {
     image: Avatar2Img,
-    name: 'Aditya Narayan Jha',
-    web: 'nataliya.com',
+    name: 'AdityaNarayan Jha',
+    web: 'adityanarayanjha.ec21@scet.ac.in',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
     delay: '600',
